@@ -364,16 +364,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .container {
   text-align: center;
-}
+  c
 
-#hero img
-{
-width: 80px;
-height: 80px;
 }
 #hero h2 {
   color: #fff;
-  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -492,6 +487,11 @@ height: 80px;
 }
 
 
+#hero .logo
+{
+  width: 60%;
+  height: auto;
+}
 
 @media (max-width: 1200px) {
   #hero h2 {
