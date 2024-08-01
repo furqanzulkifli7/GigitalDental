@@ -9,5 +9,18 @@
       "**/.*",
       "**/node_modules/**"
     ]
+	    "rewrites": [
+      {
+        "source": "index.html",
+        "destination": "/404.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/index.html",
+        "destination": "/404.html",
+        "type": 301
+      }
+    ]
   }
 }
